@@ -12,7 +12,7 @@ import urllib.request, urllib.parse, urllib.error
 import json
 
 class JotformAPIClient:
-    DEFAULT_BASE_URL = 'https://sambasafety.jotform.com/API'
+    DEFAULT_BASE_URL = 'https://sambasafety.jotform.com/API/'
     EU_BASE_URL = 'https://eu-api.jotform.com/'
 
     __apiVersion = 'v1'
